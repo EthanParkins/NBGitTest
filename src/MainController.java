@@ -32,7 +32,8 @@ public class MainController implements Initializable {
     @FXML
     private void handleButtonAction(ActionEvent event) {
         if(event.getSource() == btnClickMe){
-            System.out.println("You have clicked the button");
+            System.out.println("You have clicked");
+            System.out.println("the button");
         }
     }
     
